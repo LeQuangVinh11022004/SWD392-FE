@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# CityScout
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CityScout is an AI-powered travel companion that provides personalized recommendations for dining and tourist destinations.
 
-## Available Scripts
+## 📝 Project Overview
 
-In the project directory, you can run:
+CityScout addresses the common challenges faced by travelers in the digital age:
+- Information overload from multiple online sources
+- Complex interactions across different booking platforms
+- Lack of personalized recommendations based on individual preferences
+- Weather-dependent travel disruptions
+- Disconnected travel services and utilities
 
-### `npm start`
+### 🎯 Main Objectives
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Enhance user experience in travel planning, booking, and itinerary creation
+- Automate customer service to reduce staff workload
+- Optimize destination and itinerary recommendations based on user preferences
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Key Features
 
-### `npm test`
+### Core Functionalities
+- **Smart Booking System**: Location suggestions, pricing information, and reservation notifications
+- **Transportation Information**: Comprehensive details about available transport options
+- **Weather-Based Recommendations**: Suggesting indoor locations during rain and scenic spots during clear weather
+- **Travel Time Calculator**: Estimates travel duration between destinations for optimal itinerary planning
+- **Destination Recommendations**: Personalized suggestions based on user preferences
+- **Activities & Events**: Recommendations for local tours, activities, and events
+- **Detailed Information**: Weather updates, cultural insights, and local cuisine information
+- **Blog System**: User-generated content with mandatory location tagging
+- **Review System**: User ratings and comments to build a community-driven experience
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 👥 System Actors
 
-### `npm run build`
+1. **Users**
+   - Tourists
+   - Friend groups
+   - Families
+   - Local residents
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Businesses**
+   - Restaurants
+   - Tourist attractions
+   - Event organizers
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Staff**
+   - System support personnel
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Administrators**
+   - System managers
 
-### `npm run eject`
+5. **Support Systems**
+   - Developers
+   - AI data processors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Technology Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Mobile Development
+- Flutter/React Native
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Frontend
+- ReactJS/NextJS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Backend
+- C#
 
-## Learn More
+### Database
+- MSSQL
+- Azure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Third-Party Integrations
+- Service APIs
+- Payment gateways
+- Maps/Weather APIs
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### AI Components
+- Natural Language Processing
+- Machine Learning Engine
 
-### Code Splitting
+## 🔗 ERD Documentation
+[View Database ERD](https://drive.google.com/file/d/1plVkpbEpKKVUnS6VBAdUugVes-zdUEtX/view?usp=sharing)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🌟 Problems Addressed
 
-### Analyzing the Bundle Size
+1. **Growing Travel Demand**
+   - Rising interest in tourism and travel experiences
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. **Customer Service Overload**
+   - Insufficient support staff to handle increasing inquiries
 
-### Making a Progressive Web App
+3. **Information Overwhelm**
+   - Difficulty in selecting destinations due to excess information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. **Weather Disruptions**
+   - Travel plans affected by unexpected weather conditions
 
-### Advanced Configuration
+5. **Fragmented Services**
+   - Lack of integration between maps, bookings, and reviews
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📱 Solution Components
 
-### Deployment
+### Intelligent Recommendations
+- Personalized destination suggestions
+- Weather-adaptive recommendations
+- Activity and event proposals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Travel Planning
+- Interactive itinerary creation
+- Travel time optimization
+- Transportation options
 
-### `npm run build` fails to minify
+### Community Features
+- User reviews and ratings
+- Travel blogs with location tagging
+- Experience sharing platform
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Integration Hub
+- Unified booking system
+- Weather services
+- Mapping solutions
+- Payment processing
